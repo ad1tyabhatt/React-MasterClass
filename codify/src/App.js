@@ -1,5 +1,6 @@
 import { Header } from "./components/Header";
 import { TaskList } from "./components/Tasklist";
+import {AddTask} from "./components/AddTask"
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <AddTask/>
       <TaskList concept={concept} />
     </div>
   );
